@@ -4,7 +4,7 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](https://ranjan-moger.vercel.app/)
+🔗 [View Portfolio Live](https://ranjan-moger.netlify.app/)
 
 ## 🛠️ Tech Stack
 
@@ -49,4 +49,4 @@ npm run build
 
 ## 🌟 Credits
 
-This project was created with ❤️ by [Ranjan Moger](https://ranjan-moger.vercel.app/).
+This project was created with ❤️ by [Ranjan Moger](https://ranjan-moger.netlify.app/).
