@@ -10,7 +10,7 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 
 - ⚛️ React.js
 - 🎨 Tailwind CSS
-- 💾 Vercel(for deployment)
+- 💾 Netlify (for deployment)
 
 ## 📁 Features
 
