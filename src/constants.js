@@ -42,15 +42,10 @@ import amcLogo from "./assets/education_logo/amc.jpeg";
 import mitLogo from "./assets/education_logo/mit.jpeg";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
+import quickGptImage from "./assets/work_logo/quick_gpt.png";
+import taskManagerImage from "./assets/work_logo/task_manager.png";
+import spotifyImage from "./assets/work_logo/spotify.png";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
 
 export const SkillsInfo = [
   {
@@ -182,41 +177,39 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
+    title: "QuickGPT - Intelligent AI Assistant",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+      "QuickGPT is a sleek and intelligent AI-powered assistant built with the MERN stack. It allows users to start conversations instantly, ask questions, and receive quick, accurate responses. With features like conversation history, dark mode, and credit-based usage, QuickGPT ensures a smooth and interactive chat experience. Deployed on Vercel, it’s designed for speed, reliability, and modern UI aesthetics, making it a go-to tool for anyone seeking AI assistance.",
+    image: quickGptImage,
+    tags: ["MongoDB", "Express.js", "React.js", "Node.js", "AI", "Chatbot"],
+    github: "https://github.com/ranjan-sw-developer/quick-gpt",
+    webapp: "https://quick-gpt-fawn.vercel.app/",
   },
   {
     id: 1,
-    title: "CS Prep",
+    title: "Task Manager - Smart Productivity Dashboard",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
+      "Task Manager is a full-stack MERN application designed to simplify team collaboration and task tracking. It provides users with a modern dashboard to create, assign, and manage tasks effortlessly. With features like task distribution charts, priority-level insights, and role-based access, it ensures productivity and clarity for both individuals and teams. The clean UI and real-time updates make it a powerful tool for managing daily workflows efficiently.",
+    image: taskManagerImage,
     tags: [
-      "React JS",
-      "Node.js",
       "MongoDB",
-      "Express",
-      "HTML",
-      "CSS",
-      "JavaScript",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Charts.js",
+      "Dashboard",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "",
+    webapp: "",
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
+    title: "Spotify Clone - Flutter Music Streaming App",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      "A beautifully crafted Spotify-inspired music streaming application built with Flutter. Designed using Clean Architecture and powered by Bloc state management, it ensures scalability and maintainability. With Firebase integration, it supports real-time authentication, cloud storage, and seamless music data handling. Users can explore trending tracks, view artist profiles, stream music, read synced lyrics, and manage playlists. The modern UI closely mirrors Spotify’s sleek design, offering an immersive and responsive experience across devices.",
+    image: spotifyImage,
+    tags: ["Flutter", "Bloc", "Clean Architecture", "Firebase", "Music App"],
+    github: "",
+    webapp: "",
   },
 ];
