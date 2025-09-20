@@ -199,8 +199,8 @@ export const projects = [
       "Charts.js",
       "Dashboard",
     ],
-    github: "",
-    webapp: "",
+    github: "https://github.com/ranjan-sw-developer/task-manager",
+    webapp: "https://task-manager-ua1x.vercel.app",
   },
   {
     id: 2,
