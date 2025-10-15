@@ -43,9 +43,9 @@ import mitLogo from "./assets/education_logo/mit.jpeg";
 
 // Project Section Logo's
 import quickGptImage from "./assets/work_logo/quick_gpt.png";
+import aiWebsiteGenerator from "./assets/work_logo/ai_website_generator_2.png";
 import taskManagerImage from "./assets/work_logo/task_manager.png";
 import spotifyImage from "./assets/work_logo/spotify.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
 
 export const SkillsInfo = [
   {
@@ -177,7 +177,28 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "QuickGPT - Intelligent AI Assistant",
+    title: "AI Website Generator",
+    description:
+      "AI Website Generator is an intelligent web design assistant that allows users to generate, edit, and export website designs using AI. Built with Next.js, React, and TypeScript, it lets users describe a page in natural language and instantly generate responsive UI layouts. With built-in visual editing, authentication via Clerk, image handling through ImageKit, and database management powered by Drizzle, it offers a sleek and modern experience for developers and designers to create production-ready websites effortlessly.",
+    image: aiWebsiteGenerator,
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn",
+      "Drizzle",
+      "Clerk",
+      "ImageKit",
+      "AI",
+    ],
+    github: "https://github.com/ranjan-sw-developer/ai-website-generator",
+    webapp: "https://ai-website-generator-gamma.vercel.app/",
+  },
+
+  {
+    id: 1,
+    title: "Task Manager - Smart Productivity Dashboard",
     description:
       "QuickGPT is a sleek and intelligent AI-powered assistant built with the MERN stack. It allows users to start conversations instantly, ask questions, and receive quick, accurate responses. With features like conversation history, dark mode, and credit-based usage, QuickGPT ensures a smooth and interactive chat experience. Deployed on Vercel, it’s designed for speed, reliability, and modern UI aesthetics, making it a go-to tool for anyone seeking AI assistance.",
     image: quickGptImage,
@@ -186,7 +207,7 @@ export const projects = [
     webapp: "https://quick-gpt-fawn.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Task Manager - Smart Productivity Dashboard",
     description:
       "Task Manager is a full-stack MERN application designed to simplify team collaboration and task tracking. It provides users with a modern dashboard to create, assign, and manage tasks effortlessly. With features like task distribution charts, priority-level insights, and role-based access, it ensures productivity and clarity for both individuals and teams. The clean UI and real-time updates make it a powerful tool for managing daily workflows efficiently.",
@@ -203,7 +224,7 @@ export const projects = [
     webapp: "https://task-manager-ua1x.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Spotify Clone - Flutter Music Streaming App",
     description:
       "A beautifully crafted Spotify-inspired music streaming application built with Flutter. Designed using Clean Architecture and powered by Bloc state management, it ensures scalability and maintainability. With Firebase integration, it supports real-time authentication, cloud storage, and seamless music data handling. Users can explore trending tracks, view artist profiles, stream music, read synced lyrics, and manage playlists. The modern UI closely mirrors Spotify’s sleek design, offering an immersive and responsive experience across devices.",
