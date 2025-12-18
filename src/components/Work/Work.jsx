@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[10vw] font-sans relative"
     >
       {/* Section Title */}
       <div className="text-center mb-16">
@@ -86,10 +86,10 @@ const Work = () => {
                 />
               </div>
               <div className="lg:p-8 p-6">
-                <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+                <h3 className="lg:text-2xl font-bold text-white mb-4 text-sm">
                   {selectedProject.title}
                 </h3>
-                <p className="text-gray-400 mb-6 lg:text-base text-xs">
+                <p className="text-gray-400 mb-6 lg:text-xs text-xs">
                   {selectedProject.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
