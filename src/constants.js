@@ -47,6 +47,7 @@ import aiWebsiteGenerator from "./assets/work_logo/ai_website_generator_2.png";
 import taskManagerImage from "./assets/work_logo/task_manager.png";
 import spotifyImage from "./assets/work_logo/spotify.png";
 import megaShop from "./assets/work_logo/mega_store.png";
+import talentIQ from "./assets/work_logo/talent_iq.png";
 
 export const SkillsInfo = [
   {
@@ -195,7 +196,26 @@ export const projects = [
     "webapp": "https://mega-shop-lkpo.vercel.app/"
   },
   {
-    id: 1,
+    "id": 1,
+    "title": "Talent IQ",
+    "description": "Talent IQ is a collaborative full-stack platform engineered for real-time technical interviews. It integrates the Monaco Editor for a shared coding environment, Stream IO for low-latency video and audio conferencing, and live chat functionality. Built with a React/Vite frontend and a Node.js/Express backend, it features secure authentication via Clerk, background job processing with Inngest, and a polished, responsive UI using Tailwind CSS and DaisyUI.",
+    "image": talentIQ,
+    "tags": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Stream IO",
+      "Clerk",
+      "Monaco Editor",
+      "Inngest",
+      "Tailwind CSS"
+    ],
+    "github": "https://github.com/ranjan-sw-developer/talent-iq",
+    "webapp": "https://talent-iq-r0bmg.sevalla.app/"
+  },
+  {
+    id: 2,
     title: "AI Website Generator",
     description:
       "AI Website Generator is an intelligent web design assistant that allows users to generate, edit, and export website designs using AI. Built with Next.js, React, and TypeScript, it lets users describe a page in natural language and instantly generate responsive UI layouts. With built-in visual editing, authentication via Clerk, image handling through ImageKit, and database management powered by Drizzle, it offers a sleek and modern experience for developers and designers to create production-ready websites effortlessly.",
@@ -216,7 +236,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Task Manager - Smart Productivity Dashboard",
     description:
       "QuickGPT is a sleek and intelligent AI-powered assistant built with the MERN stack. It allows users to start conversations instantly, ask questions, and receive quick, accurate responses. With features like conversation history, dark mode, and credit-based usage, QuickGPT ensures a smooth and interactive chat experience. Deployed on Vercel, it’s designed for speed, reliability, and modern UI aesthetics, making it a go-to tool for anyone seeking AI assistance.",
@@ -226,7 +246,7 @@ export const projects = [
     webapp: "https://quick-gpt-fawn.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Task Manager - Smart Productivity Dashboard",
     description:
       "Task Manager is a full-stack MERN application designed to simplify team collaboration and task tracking. It provides users with a modern dashboard to create, assign, and manage tasks effortlessly. With features like task distribution charts, priority-level insights, and role-based access, it ensures productivity and clarity for both individuals and teams. The clean UI and real-time updates make it a powerful tool for managing daily workflows efficiently.",
@@ -243,7 +263,7 @@ export const projects = [
     webapp: "https://task-manager-ua1x.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Spotify Clone - Flutter Music Streaming App",
     description:
       "A beautifully crafted Spotify-inspired music streaming application built with Flutter. Designed using Clean Architecture and powered by Bloc state management, it ensures scalability and maintainability. With Firebase integration, it supports real-time authentication, cloud storage, and seamless music data handling. Users can explore trending tracks, view artist profiles, stream music, read synced lyrics, and manage playlists. The modern UI closely mirrors Spotify’s sleek design, offering an immersive and responsive experience across devices.",
